@@ -7,7 +7,8 @@
 using namespace std;
 char make_big(char *str)
 {
-	char alpha[] = "qwertyuiopasdfghjklzxcvbnm";
+	//alphabet
+	char alpha[] = "qwertyuiopasdfghjklzxcvbnm"; 
 
 	for (int i = 0; i < strlen(str); i++)
 	{
